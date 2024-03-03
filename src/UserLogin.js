@@ -27,7 +27,7 @@ function UserLogin() {
     };
 
     const renderHead = () => {
-        if (userData.length === 0) return null; // Return null if userData is empty or not yet fetched
+        if (userData.length === 0) return null; 
 
         const header = Object.keys(userData[0]);
 
@@ -40,7 +40,7 @@ function UserLogin() {
     };
 
     const renderDetails = (keyValue) => {
-        if (!keyValue) return null; // Return null if keyValue is undefined or null
+        if (!keyValue) return null; 
 
         return Object.keys(keyValue).map((key) => {
             if (key === 'gender' || key === 'email') {

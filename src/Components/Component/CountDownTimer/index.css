@@ -1,0 +1,12 @@
+.seconds-style {
+    font-size: 2.5em;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.seconds-s-style {
+    font-size: 2em;
+    color: var(--primary);
+    font-weight: bold;
+    padding-left: 2px;
+}
